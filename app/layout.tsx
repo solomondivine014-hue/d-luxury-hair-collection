@@ -1,0 +1,3 @@
+import type { Metadata } from "next";import "./globals.css";import Header from "@/components/Header";import Footer from "@/components/Footer";import WhatsApp from "@/components/WhatsApp";import{CartProvider}from"@/components/CartContext";
+export const metadata:Metadata={title:"D Luxury Hair Collection | Look Luxurious. Pay Less.",description:"Premium but affordable luxury wigs, raw human hair and custom wigs from D Luxury Hair Collection."};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><CartProvider><Header/><main>{children}</main><WhatsApp/><Footer/></CartProvider></body></html>}
