@@ -1,0 +1,2 @@
+import { MessageCircle } from "./icons";
+export default function WhatsApp(){return <a href="https://wa.me/2348072895663" target="_blank" rel="noreferrer" className="fixed bottom-5 right-5 z-40 flex items-center gap-2 rounded-full border border-white/15 bg-[#0a0a0a]/95 px-4 py-3 text-xs font-semibold uppercase tracking-[.12em] text-white shadow-2xl backdrop-blur hover:border-[#d7ad54]"><MessageCircle size={18}/><span className="hidden sm:inline">WhatsApp Us</span></a>}
